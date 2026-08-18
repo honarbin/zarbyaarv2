@@ -1,0 +1,4 @@
+- name: Extract ZIP file
+  run: |
+    mkdir extracted
+    unzip -qq my-file.zip -d extracted
