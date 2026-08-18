@@ -1,0 +1,4 @@
+- name: Extract ZIP file
+  run: |
+    mkdir extracted
+    unzip -qq zarbyar_build_ready.zip -d extracted
